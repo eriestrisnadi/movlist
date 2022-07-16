@@ -1,4 +1,4 @@
-const BASE_URL: string = "http://www.omdbapi.com/";
+const BASE_URL: string = "//www.omdbapi.com/";
 const API_KEY = process.env.REACT_APP_OMDB_API_KEY || "";
 
 export interface IMovieRating {
